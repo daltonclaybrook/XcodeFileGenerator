@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEBFE40A19985DCC00AF706C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBFE40919985DCC00AF706C /* Foundation.framework */; };
+		BEBFE40D19985DCC00AF706C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBFE40C19985DCC00AF706C /* main.m */; };
+		BEBFE41119985DCC00AF706C /* XcodeFileGenerator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEBFE41019985DCC00AF706C /* XcodeFileGenerator.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BEBFE40419985DCC00AF706C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				BEBFE41119985DCC00AF706C /* XcodeFileGenerator.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BEBFE40619985DCC00AF706C /* XcodeFileGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeFileGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBFE40919985DCC00AF706C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEBFE40C19985DCC00AF706C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEBFE40F19985DCC00AF706C /* XcodeFileGenerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XcodeFileGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		BEBFE41019985DCC00AF706C /* XcodeFileGenerator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XcodeFileGenerator.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEBFE40319985DCC00AF706C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBFE40A19985DCC00AF706C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEBFE3FD19985DCC00AF706C = {
+			isa = PBXGroup;
+			children = (
+				BEBFE40B19985DCC00AF706C /* XcodeFileGenerator */,
+				BEBFE40819985DCC00AF706C /* Frameworks */,
+				BEBFE40719985DCC00AF706C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEBFE40719985DCC00AF706C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEBFE40619985DCC00AF706C /* XcodeFileGenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEBFE40819985DCC00AF706C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEBFE40919985DCC00AF706C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEBFE40B19985DCC00AF706C /* XcodeFileGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				BEBFE45B19985F2F00AF706C /* BusinessLogic */,
+				BEBFE40C19985DCC00AF706C /* main.m */,
+				BEBFE41019985DCC00AF706C /* XcodeFileGenerator.1 */,
+				BEBFE40E19985DCC00AF706C /* Supporting Files */,
+			);
+			path = XcodeFileGenerator;
+			sourceTree = "<group>";
+		};
+		BEBFE40E19985DCC00AF706C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEBFE40F19985DCC00AF706C /* XcodeFileGenerator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEBFE45B19985F2F00AF706C /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BusinessLogic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEBFE40519985DCC00AF706C /* XcodeFileGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBFE41419985DCC00AF706C /* Build configuration list for PBXNativeTarget "XcodeFileGenerator" */;
+			buildPhases = (
+				BEBFE40219985DCC00AF706C /* Sources */,
+				BEBFE40319985DCC00AF706C /* Frameworks */,
+				BEBFE40419985DCC00AF706C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeFileGenerator;
+			productName = XcodeFileGenerator;
+			productReference = BEBFE40619985DCC00AF706C /* XcodeFileGenerator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEBFE3FE19985DCC00AF706C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Space Factory Studios";
+			};
+			buildConfigurationList = BEBFE40119985DCC00AF706C /* Build configuration list for PBXProject "XcodeFileGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEBFE3FD19985DCC00AF706C;
+			productRefGroup = BEBFE40719985DCC00AF706C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEBFE40519985DCC00AF706C /* XcodeFileGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEBFE40219985DCC00AF706C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBFE40D19985DCC00AF706C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BEBFE41219985DCC00AF706C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BEBFE41319985DCC00AF706C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BEBFE41519985DCC00AF706C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XcodeFileGenerator/XcodeFileGenerator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEBFE41619985DCC00AF706C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XcodeFileGenerator/XcodeFileGenerator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEBFE40119985DCC00AF706C /* Build configuration list for PBXProject "XcodeFileGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBFE41219985DCC00AF706C /* Debug */,
+				BEBFE41319985DCC00AF706C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBFE41419985DCC00AF706C /* Build configuration list for PBXNativeTarget "XcodeFileGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBFE41519985DCC00AF706C /* Debug */,
+				BEBFE41619985DCC00AF706C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEBFE3FE19985DCC00AF706C /* Project object */;
+}
