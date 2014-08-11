@@ -10,6 +10,8 @@
 		BEBFE40A19985DCC00AF706C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBFE40919985DCC00AF706C /* Foundation.framework */; };
 		BEBFE40D19985DCC00AF706C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBFE40C19985DCC00AF706C /* main.m */; };
 		BEBFE41119985DCC00AF706C /* XcodeFileGenerator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEBFE41019985DCC00AF706C /* XcodeFileGenerator.1 */; };
+		BEBFE45E199861C600AF706C /* XFGEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBFE45D199861C600AF706C /* XFGEngine.m */; };
+		BEBFE462199867EB00AF706C /* XFGConsoleUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBFE461199867EB00AF706C /* XFGConsoleUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		BEBFE40C19985DCC00AF706C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEBFE40F19985DCC00AF706C /* XcodeFileGenerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XcodeFileGenerator-Prefix.pch"; sourceTree = "<group>"; };
 		BEBFE41019985DCC00AF706C /* XcodeFileGenerator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XcodeFileGenerator.1; sourceTree = "<group>"; };
+		BEBFE45C199861C600AF706C /* XFGEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFGEngine.h; sourceTree = "<group>"; };
+		BEBFE45D199861C600AF706C /* XFGEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFGEngine.m; sourceTree = "<group>"; };
+		BEBFE460199867EB00AF706C /* XFGConsoleUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFGConsoleUtility.h; sourceTree = "<group>"; };
+		BEBFE461199867EB00AF706C /* XFGConsoleUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFGConsoleUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,7 @@
 		BEBFE40B19985DCC00AF706C /* XcodeFileGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				BEBFE45F199867DF00AF706C /* Helpers */,
 				BEBFE45B19985F2F00AF706C /* BusinessLogic */,
 				BEBFE40C19985DCC00AF706C /* main.m */,
 				BEBFE41019985DCC00AF706C /* XcodeFileGenerator.1 */,
@@ -92,8 +99,19 @@
 		BEBFE45B19985F2F00AF706C /* BusinessLogic */ = {
 			isa = PBXGroup;
 			children = (
+				BEBFE45C199861C600AF706C /* XFGEngine.h */,
+				BEBFE45D199861C600AF706C /* XFGEngine.m */,
 			);
 			name = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		BEBFE45F199867DF00AF706C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BEBFE460199867EB00AF706C /* XFGConsoleUtility.h */,
+				BEBFE461199867EB00AF706C /* XFGConsoleUtility.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +140,7 @@
 		BEBFE3FE19985DCC00AF706C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XFG;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Space Factory Studios";
 			};
@@ -148,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEBFE40D19985DCC00AF706C /* main.m in Sources */,
+				BEBFE462199867EB00AF706C /* XFGConsoleUtility.m in Sources */,
+				BEBFE45E199861C600AF706C /* XFGEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
